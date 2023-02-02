@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>JjnHee Home</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://cdn.imweb.me/upload/S2017100759d8411403950/5ad993b1ca72f.jpg");
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+            text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+
+        }
+
+        .greeting {
+            font-size: 40px;
+            color: black;
+            text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+        }
+
+        .todo {
+            font-size: 20px;
+            color: white;
+            text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+        }
+
+        .author {
+            font-size: 15px;
+            font-style: italic;
+            color: white;
+        }
+
+        .main {
+            width: 100vw;
+            height: 85vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 15vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="currentTime" class="time">12:00</div>
+        <div class="greeting">Sprihg</div>
+        <div class="todo">향기로운 꽃내음으로 한 걸음 더</div>
+    </div>
+    <div class="quote">
+        <div id="quoteAuthor" class="author">- 명언 저자 -</div>
+        <div id="quoteContent" class="content">" 명언 내용 "</div>
+    </div>
+</body>
+
+</html>
